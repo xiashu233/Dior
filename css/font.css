@@ -1,0 +1,228 @@
+/* 定义字体规则 */
+@font-face {
+	font-family:lizheng_font; /* 字体 */
+	src: url(../fonts/glyphicons-regular.eot),
+		url(../fonts/glyphicons-regular.svg),
+		url(../fonts/glyphicons-regular.ttf),
+		url(../fonts/glyphicons-regular.woff);
+}
+/* 定义图标 */ 
+.icon{
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+/* 	position: relative;
+	top:1px; */
+	line-height: 1;
+}
+/* 定义房子图标 */  
+.icon_home:before{
+	font-family: lizheng_font;
+	content:"\e021";
+}
+/* 人的图标 */
+.icon_man:before{
+	font-family: lizheng_font;
+	content:"\e265";
+	font-size: 23px;
+}
+/* .icon_man:before{
+	font-family: lizheng_font;
+	content: "\e265";
+	font-size: 23px;
+} */
+.icon_jusity:before{
+	font-family: lizheng_font;
+	content:"\e114";
+}
+
+@font-face {
+	font-family:flower_font; /* 字体 */
+	src: url(../fonts/fonts/iconfont.eot),
+		url(../fonts/fonts/iconfont.svg),
+		url(../fonts/fonts/iconfont.ttf),
+		url(../fonts/fonts/iconfont.woff),
+		url(../fonts/fonts/iconfont.woff2);
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* g */
+.icon-google:before {
+	font-family:flower_font;
+	content: "\e736";
+}
+/* t */
+.icon-tumblr:before {
+	font-family:flower_font;
+	content: "\e81a";
+}
+/* 🕊鸽子 */
+.icon-niao:before {
+	font-family:flower_font;
+	content: "\e820";
+}
+/* ❤爱心 */
+.icon-xin:before {
+	font-family:flower_font;
+	content: "\e671";
+	 font-size: 25px;
+}
+/* 包包 */
+.icon-bug:before {
+	font-family:flower_font;
+	content: "\e6fc";
+	 font-size: 25px;
+}
+/* 购物车 */
+.icon-shopcar:before {
+	font-family:flower_font;
+	content: "\e744";
+}
+/* f */
+.icon-facebook:before {
+	font-family:flower_font;
+	content: "\e60f";
+}
+/* 🔍搜索 */
+.icon-search:before {
+	font-family:flower_font;
+	content: "\e68d";
+	 font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 定义字体文件 */
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfonts/iconfont.eot?t=1573786509281'); /* IE9 */
+  src: url('../fonts/iconfonts/iconfont.eot?t=1573786509281#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	  url('../fonts/iconfonts/iconfont.woff?t=1573786509281') format('woff'),
+	  url('../fonts/iconfonts/iconfont.ttf?t=1573786509281') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+	  url('../fonts/iconfonts/iconfont.svg?t=1573786509281#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pingguo:before {
+  content: "\e8a9";
+}
+
+.icon-windows:before {
+  content: "\e8c4";
+}
+
+.icon-ico:before {
+  content: "\e501";
+}
+
+.icon-anzhuotubiao:before {
+  content: "\e764";
+}
+
+@font-face {
+	font-family:dirofont;
+	src: url(../iconfont/iconfont.eot),
+		url(../iconfont/iconfont.svg),
+		url(../iconfont/iconfont.ttf),
+		url(../iconfont/iconfont.woff),
+		url(../iconfont/iconfont.woff2);
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon_user:before{
+	font-family: dirofont;
+	content: "\e607";
+	font-size: 25px;
+	font-weight: bold;
+}
+.icon_gouwu:before{
+	font-family: dirofont;
+	content: "\e60e";
+	font-size: 25px;
+	font-weight: bold;
+}
+.icon-express-model:before{
+	font-family: dirofont;
+	content: "\e642";
+	font-size: 25px;
+	/* font-weight: bold; */
+}
+.icon-ai21:before{
+	font-family: dirofont;
+	content: "\e688";
+	font-size: 30px;
+	/* font-weight: bold; */
+}
+.icon-icon-:before{
+	font-family: dirofont;
+	content: "\e620";
+	font-size: 25px;
+	/* font-weight: bold; */
+}
+.icon-huaban:before{
+	font-family: dirofont;
+	content: "\e680";
+	font-size: 25px;
+}
+@font-face {
+	font-family:weibo;
+	src: url(../iconfont/weibo/iconfont.eot),
+		url(../iconfont/weibo/iconfont.svg),
+		url(../iconfont/weibo/iconfont.ttf),
+		url(../iconfont/weibo/iconfont.woff),
+		url(../iconfont/weibo/iconfont.woff2);
+}
+.icon_weibo:before{
+	font-family: weibo;
+	content:"\e64b";
+	font-size: 50px;
+}
+
+@font-face {
+	font-family:weixin;
+	src: url(../fonts/weixin/iconfont.eot),
+		url(../fonts/weixin/iconfont.svg),
+		url(../fonts/weixin/iconfont.ttf),
+		url(../fonts/weixin/iconfont.woff),
+		url(../fonts/weixin/iconfont.woff2);
+}
+.icon_weixin1:before{
+	font-family: weixin;
+	content: "\e659";
+}
+.icon_weixin2:before{
+	font-family: weixin;
+	content: "\e64c";
+	font-size: 50px;
+}
+.icon_zhifubao:before{
+	font-family: weixin;
+	content: "\e65f";
+}
+.icon_liaotian:before{
+	font-family: weixin;
+	content: "\e75e";
+}

@@ -67,7 +67,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
+    <Content Include="Backstage\html\BackstageForm.html" />
+    <Content Include="css\font.css" />
+    <Content Include="css\global.css" />
+    <Content Include="css\layout.css" />
+    <Content Include="Home\css\index.css" />
+    <Content Include="Home\html\index.html" />
+    <Content Include="Home\images\%252FY0115009%252FV004%252FY0115009_C011600999_E01_GHC.jpg" />
+    <Content Include="Home\images\%252FY4000539%252FV001%252FY4000539_C400072539_E01_GHC.jpg" />
+    <Content Include="Home\images\%252FY4000725%252FY4000725_C400072565_E01_GHC.jpg" />
+    <Content Include="Home\images\1543999506_E0640ADRCY_D909_E01_GH.jpg" />
+    <Content Include="Home\images\1572520369_013J600B0589_C085_E01_GH.jpg" />
+    <Content Include="Home\images\1573669889_S5647CRIW_M928_E01_GH.jpg" />
+    <Content Include="Home\images\baby-gifting_1440_1200.jpg" />
+    <Content Include="Home\images\cdc-collection-croisiere-20203_1440_1200.jpg" />
+    <Content Include="Home\images\cdc-homme-christmas_1440_1200.jpg" />
+    <Content Include="Home\images\cdc-sacs-chine_1440_1200.jpg" />
+    <Content Include="Home\images\cdc-xmas14_1440_1200.jpg" />
+    <Content Include="Home\images\china-0.png" />
+    <Content Include="Home\images\china-1.png" />
+    <Content Include="Home\images\china-3.png" />
+    <Content Include="Home\images\christmas-cdc5_1440_1200.jpg" />
+    <Content Include="Home\images\dior-and-rimowa_1440_1200.jpg" />
+    <Content Include="Home\images\her-golden-dream2_1440_1200.jpg" />
+    <Content Include="Home\images\image1 %281%29.jpg" />
+    <Content Include="Home\images\image1 %282%29.jpg" />
+    <Content Include="Home\images\image1 %283%29.jpg" />
+    <Content Include="Home\images\image1 %284%29.jpg" />
+    <Content Include="Home\images\image1%285%29.jpg" />
+    <Content Include="Home\images\pcd-diorific-noel2_1440_1200.jpg" />
+    <Content Include="Home\images\pcd-japon-makeup-holiday-look-20194_1440_1200.jpg" />
+    <Content Include="Home\images\pcd-new-sauvage-flacon6_1440_1200.jpg" />
+    <Content Include="Home\images\push-bebes-filles_1440_1200.jpg" />
+    <Content Include="Home\images\push-bebes-garcons_1440_1200.jpg" />
+    <Content Include="Home\images\push-filles17_1440_1200.jpg" />
+    <Content Include="Home\images\push-garcons12_1440_1200.jpg" />
+    <Content Include="Home\images\selection-de-noel-chine2_1440_1200.jpg" />
+    <Content Include="Home\images\souliers-jp5_1440_1200.jpg" />
+    <Content Include="Home\index.html" />
+    <Content Include="Home\js\index.js" />
+    <Content Include="js\jquery-3.2.1.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +120,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fonts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

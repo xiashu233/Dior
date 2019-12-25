@@ -1,0 +1,21 @@
+/* 作为公共的样式 通用样式 */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-size: 15px;
+}
+a img{
+	border: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	font-weight: bold;
+}
+ul{
+	list-style: none;
+}

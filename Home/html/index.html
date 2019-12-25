@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../../css/font.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/global.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/layout.css"/>
+		<link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<script src="../../js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<!-- 页眉 -->
+		<header id="header">
+			<div class="header_content container">
+				<div class="header_content_mul">
+					<div class="content_mul_button">
+						<span class="icon icon_jusity"></span>
+						<a href="#">
+							<span class="mul_button_text">目录</span>
+						</a>
+					</div>
+					<ul class="content_mul_ul">
+						<li><a href="#">甄选之礼</a></li>
+						<li><a href="#">女士精品</a></li>
+						<li><a href="#">男士精品</a></li>
+						<li><a href="#">香氛</a></li>
+						<li><a href="#">彩妆</a></li>
+						<li><a href="#">护肤</a></li>
+						<li><a href="#">童装精品</a></li>
+						<li><a href="#">邂逅迪奥&精湛工艺</a></li>
+					</ul>
+				</div>
+				<div class="header_content_search">
+					<input style="outline: none;" type="text" class="header_search" placeholder="&nbsp;&nbsp;在dior.cn上搜索"/>
+					<button type="button" class="icon icon-search header_search_icon"></button>
+				</div>
+				<div class="header_content_title">
+					<h1 class="content_title_text">DIOR</h1>
+				</div>
+				<nav class="header_content_icon">
+					<ul class="container content_icon_ul">
+						<li class="icon_item"><a href="#"><span class="icon-xin"></span></a></li>
+						<li class="icon_item"><a href="login.html"><span class="icon icon_user"></span></a></li>
+						<li class="icon_item icon_item_shop"><a href="#"><span class="icon_gouwu "></span></a></li>
+					</ul>
+				</nav>
+				<div class="mask">
+				</div>
+				<!-- <div class="toDisplay2">
+					<div class="section_content1">
+						<h2 class="section_content_title">登录或创建用户</h2>
+						<div class="section_content_login container">
+							<div class="content_login_input">
+								<p class="login_input_text">
+									<span class="login_input_duanxin"><a href="#">短信验证码登录</a></span>
+									<span class="login_input_pwd login_input_click1"><a href="#">密码登录</a></span>
+								</p>
+								<input class="login_input_phone input_border" type="text" placeholder="*手机号"/><br>
+								<input class="login_input_yanzheng input_border" type="text" placeholder="*验证码"/>
+								<span class="login_input_yanzhengma input_border">验证码</span>
+								<br>
+								<input class="lologin_input_xinxi input_border" type="text" placeholder="*短信验证码"/>
+								<button class="login_input_button " type="button">发送</button><br>
+								<p class="login_input_text1">*未注册Dior官网账号的手机号，在使用验证码登录时将自动注册。</p>
+								<p class="login_input_text1">
+									<input type="checkbox" />我已阅读并接受
+									<a href="#">个人信息收集声明以及网站使用和销售条款</a>
+								</p>
+								<button type="button" class="login_input_loginbutton">登录</button><br>
+								<p class="login_input_other">
+									<a href="#">使用第三方账号登录</a>
+									<span class="icon_weixin1 login_input_othericon"></span>
+									<span class="icon_zhifubao login_input_othericon"></span>
+								</p>
+							</div>
+							<div class="content_login_input1 hidden">
+								<p class="login_input_text">
+									<span class="login_input_duanxin"><a href="#">密码登录</a></span>
+									<span class="login_input_pwd login_input_click2"><a href="#">短信验证码登录</a></span>
+								</p>
+								<span class="input_text">用户名*</span><input class="login_input_yonghu input_border" type="text" placeholder="*手机号/邮箱"/><br>
+								<span class="input_text">密码*</span><input class="login_input_mima input_border" type="text" placeholder="*密码"/>
+								<p class="login_input_text1">
+									<input type="checkbox" />我已阅读并接受
+									<a href="#">个人信息收集声明以及网站使用和销售条款</a>
+								</p>
+								<p class="login_button_denglu">
+									<a href="#"  class="login_denglu">忘记密码？</a>
+									<span class="button_denglu">登录</span>
+								</p>
+							</div>
+							<div class="section_content_zhuce">
+								<p class="content_zhuce_title">注册Dior账户</p>
+								<p class="content_zhuce_text">注册Dior账号以便追踪您的订单，管理收货地址，获取更多个性化信息</p>
+								<button type="button" class="content_zhuce_button">创建账户</button>
+							</div>
+						</div>
+						<div class="section_content_hint">
+							<p>*请妥善保管您的注册账户信息，勿将账号及密码随意泄露给他人</p>
+							<p>请注意，您的账户注册手机号为迪奥识别及验证您账户身份的唯一依据。</p>
+						</div>
+					</div>
+				</div> -->
+				<div class="toDisplay">
+					<button style="outline: none;" type="button" id="close" >×</button>
+				    <!-- 弹出层 -->
+					<div class="tanchu_content">
+						<ul class="tanchu_content_ul container">
+							<li class="content_ul_item">我的收藏</li>
+							<li class="content_ul_item">我的账户</li>
+							<li class="content_ul_item">购物袋</li>
+						</ul>
+						<div class="tanchu_content_text">
+							<div class="content_text_item">我的最爱没有任何作品</div>
+							<div class="content_text_item">
+								<div class="text_item_login">
+									<p class="item_login_big">登录</p>
+									<p class="item_login_text">登录我的账户</p>
+									<a href="login.html"><span class="item_login_btnlogin">登录</span></a>
+								</div>
+								<div class="text_item_zhuce">
+									<p>没有账户吗？</p>
+									<span class="item_zhuce_btnzhuce">建立账户</span>
+								</div>
+							</div>
+							<div class="content_text_item show">
+								<p>购物篮没有任何作品</p>
+								<a href="index.html"><span class="item_zhuce_btnzhuce">继续购物</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- 中心内容 -->
+		<section id="section">
+			<div class="section_content">
+				<div class="section_content_banner">
+					<div class="imgBanner">
+						<img class="banner_img" src="../images/image1(5).jpg" >
+						<img src="../images/image1 (2).jpg" >
+						<img src="../images/image1 (3).jpg" >
+						<img src="../images/image1 (4).jpg" >
+						<img src="../images/image1 (1).jpg" >
+					</div>
+					<ul class="content_banner_ul">
+						<li class="banner_imgli"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+					<!-- <span class="banner_left " style="">&lt;</span>
+					<span class="banner_right ">&gt;</span> -->
+				</div>
+				<div class="section_content_text">
+					<p class="text_color">香氛</p>
+					<p class="text_title">真我&nbsp;&nbsp;香氛</p><br>
+					<button style="outline: none;" type="button" class="text_button">
+						<span class="icon icon_gouwu"></span>立即购买
+					</button>
+				</div>
+				<div class="section_content_goods">
+					<div class="content_goods_text">
+						<p class="goods_text_time">08</p>
+						<hr class="goods_text_hr">
+						<p class="goods_text_month">十二月</p>
+						<p class="goods_text_title">精&nbsp;&nbsp;选</p>
+					</div>
+					<div class="content_goods container">
+						<div>
+							<span class="content_goods_leftbtn"> 〈 </span>
+						</div>
+						<div class="content_goods_box">
+							<dl class="content_goods_item">
+								<dt>
+									<img class="goods_item_img" src="../images/1573669889_S5647CRIW_M928_E01_GH.jpg" >
+									<span class="icon-xin goods_item_icon"></span>
+								</dt>
+								<dd class="goods_item_text">
+									<p class="item_text_gray">#新品</p>
+									<p class="item_text_title">米色与黑色提花 Dior Oblique 图案手拿包</p>
+									<p class="item_text_info">这款 Dior Oblique 图案提花手拿包在基本款钱包式手袋的基础上搭配了一条实用的肩带。</p>
+								</dd>
+								<dd class="goods_item_price">￥11,500</dd>
+								<dd>
+									<button class="goods_item_button" type="button">
+										<span class="icon icon_gouwu"></span>立即购买
+									</button>
+								</dd>
+							</dl>
+							<dl class="content_goods_item">
+								<dt>
+									<img class="goods_item_img" src="../images/%252FY0115009%252FV004%252FY0115009_C011600999_E01_GHC.jpg" >
+									<span class="icon-xin goods_item_icon"></span>
+								</dt>
+								<dd class="goods_item_text">
+									<p class="item_text_gray">#限量版</p>
+									<p class="item_text_gray">#畅销产品</p>
+									<p class="item_text_gray">#全新</p>
+									<p class="item_text_title">烈焰蓝金唇膏  限量版</p>
+								</dd>
+								<dd class="goods_item_price">￥11,500</dd>
+								<dd>
+									<button class="goods_item_button" type="button">
+										<span class="icon icon_gouwu"></span>立即购买
+									</button>
+								</dd>
+							</dl>
+							<dl class="content_goods_item">
+								<dt>
+									<img class="goods_item_img" src="../images/1543999506_E0640ADRCY_D909_E01_GH.jpg" >
+									<span class="icon-xin goods_item_icon"></span>
+								</dt>
+								<dd class="goods_item_text">
+									<p class="item_text_title">J'Adior耳环</p>
+									<p class="item_text_info">J'Adior八色复古金属和白色水晶耳环</p>
+								</dd>
+								<dd class="goods_item_price">￥11,500</dd>
+								<dd>
+									<button style="outline: none;" class="goods_item_button" type="button">
+										<span class="icon icon_gouwu"></span>立即购买
+									</button>
+								</dd>
+							</dl>
+							<dl class="content_goods_item">
+								<dt>
+									<img  class="goods_item_img" src="../images/%252FY4000539%252FV001%252FY4000539_C400072539_E01_GHC.jpg" >
+									<span class="icon-xin goods_item_icon"></span>
+								</dt>
+								<dd class="goods_item_text">
+									<p class="item_text_gray">#全新</p>
+									<p class="item_text_title">花秘瑰萃</p>
+								</dd>
+								<dd class="goods_item_price">￥2200</dd>
+								<dd>
+									<a href="shop.html">
+										<button style="outline: none;" class="goods_item_button" type="button">
+											<span class="icon icon_gouwu"></span>立即购买
+										</button>
+									</a>
+									
+								</dd>
+							</dl>
+							<dl class="content_goods_item">
+								<dt>
+									<img  class="goods_item_img" src="../images/%252FY4000725%252FY4000725_C400072565_E01_GHC.jpg" >
+									<span class="icon-xin goods_item_icon"></span>
+								</dt>
+								<dd class="goods_item_text">
+									<p class="item_text_gray">#限量版</p>
+									<p class="item_text_gray">#限量款</p>
+									<p class="item_text_gray">#畅销产品</p>
+									<p class="item_text_gray">#全新</p>
+									<p class="item_text_title">烈颜蓝金迷你唇膏套装</p>
+								</dd>
+								<dd class="goods_item_price">￥470</dd>
+								<dd>
+									<button style="outline: none;" class="goods_item_button" type="button">
+										<span class="icon icon_gouwu"></span>立即购买
+									</button>
+								</dd>
+							</dl>
+							<dl class="content_goods_item">
+								<dt>
+									<img  class="goods_item_img" src="../images/1572520369_013J600B0589_C085_E01_GH.jpg" >
+									<span class="icon-xin goods_item_icon"></span>
+								</dt>
+								<dd class="goods_item_text">
+									<p class="item_text_gray">#新品</p>
+									<p class="item_text_title">米色与黑色提花 Dior Oblique 图案手拿包</p>
+									<p class="item_text_info">这款 Dior Oblique 图案提花手拿包在基本款钱包式手袋的基础上搭配了一条实用的肩带。</p>
+								</dd>
+								<dd class="goods_item_price">￥11,500</dd>
+								<dd>
+									<button style="outline: none;" class="goods_item_button" type="button">
+										<span class="icon icon_gouwu"></span>立即购买
+									</button>
+								</dd>
+							</dl>
+						</div>
+						
+						<div>
+							<span  class="content_goods_rightbtn" type="button"> 〉 </span>
+						</div>
+					</div>
+				</div>
+				<div class="section_content_nvshi">
+					<p class="content_nvshi_title">女&nbsp;&nbsp;士</p>
+					<p class="content_nvshi_text">从标志性杰作到最新作品，探索Dior迪奥演绎的妩媚魅力</p>
+					<img class="content_nvshi_img" src="../images/cdc-collection-croisiere-20203_1440_1200.jpg" >
+				</div>
+				<div class="section_content_xilie">
+					<div class="content_xilie_text">
+						<p class="xielie_text_title">CRUISE&nbsp;&nbsp;2020&nbsp;&nbsp;系列</p>
+						<p class="xielie_text_info">
+							Maria  Grazia  Chiuri 的 Cruise  2020  系列囊括不同潮流与时期，彰显高雅<br>
+							的气质与深厚的工艺底蕴
+						</p>
+					</div>
+					<div class="content_xilie_goods container">
+						<dl class="xilie_goods_itme">
+							<dt><img class="xilie_itemimg" src="../images/selection-de-noel-chine2_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">女士圣诞赠礼</dd>
+						</dl>
+						<dl class="xilie_goods_itme xilie_goods_itmeleft">
+							<dt><img class="xilie_itemimg" src="../images/cdc-sacs-chine_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">手提包</dd>
+						</dl>
+						<dl class="xilie_goods_itme xilie_goods_itmeleft">
+							<dt><img class="xilie_itemimg" src="../images/her-golden-dream2_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">圣诞梦幻珍礼</dd>
+						</dl>
+						<dl class="xilie_goods_itme xilie_goods_itmeleft">
+							<dt><img class="xilie_itemimg" src="../images/pcd-diorific-noel2_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">金艳幻彩唇膏  限量版</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="section_content_nvshi">
+					<p class="content_nvshi_title">男&nbsp;&nbsp;士</p>
+					<p class="content_nvshi_text">从经典精品到最新作品，探索Dior迪奥男士世界</p>
+					<img class="content_nvshi_img" src="../images/cdc-xmas14_1440_1200.jpg" >
+				</div>
+				<div class="section_content_xilie">
+					<div class="content_xilie_text">
+						<p class="xielie_text_title">男士圣诞赠礼</p>
+						<p class="xielie_text_info">
+							值此圣诞佳节，为他甄选心意之礼
+						</p>
+					</div>
+					<div class="content_xilie_goods container">
+						<dl class="xilie_goods_itme1">
+							<dt><img class="nxilie_itemimg nxilie_itemimg1" src="../images/pcd-new-sauvage-flacon6_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">DIOR迪奥旷野男士香水系列</dd>
+						</dl>
+						<dl class="xilie_goods_itme2">
+							<dt><img class="nxilie_itemimg" src="../images/souliers-jp5_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">鞋履</dd>
+						</dl>
+						<dl class="xilie_goods_itme2">
+							<dt><img class="nxilie_itemimg" src="../images/christmas-cdc5_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">男士时尚赠礼</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="section_content_nvshi">
+					<p class="content_nvshi_title">童&nbsp;&nbsp;装</p>
+					<p class="content_nvshi_text">Dior迪奥童装与婴儿服装凝聚品牌无限创意及精湛工艺</p>
+					<img class="content_nvshi_img" src="../images/baby-gifting_1440_1200.jpg" >
+				</div>
+				<div class="section_content_xilie">
+					<div class="content_xilie_text">
+						<p class="xielie_text_title">初生婴儿礼盒</p>
+						<p class="xielie_text_info">
+							50年来，Dior迪奥运用专业工艺精心细作，以Baby  Dior精致而温暖的系<br>
+							列作品庆祝婴孩诞生，为年轻父母带来难忘喜悦。了解精选礼品凝聚的Dio<br>
+							r迪奥精湛工艺：这些精致佳作柔和传统与现代设计，是庆祝人生重要时刻<br>
+							的理想之选！
+						</p>
+					</div>
+					<div class="content_xilie_goods container">
+						<dl class="xilie_goods_itme">
+							<dt><img class="xilie_itemimg" src="../images/push-garcons12_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">男童</dd>
+						</dl>
+						<dl class="xilie_goods_itme xilie_goods_itmeleft">
+							<dt><img class="xilie_itemimg" src="../images/push-filles17_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">女童</dd>
+						</dl>
+						<dl class="xilie_goods_itme xilie_goods_itmeleft">
+							<dt><img class="xilie_itemimg" src="../images/push-bebes-garcons_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">男婴</dd>
+						</dl>
+						<dl class="xilie_goods_itme xilie_goods_itmeleft">
+							<dt><img class="xilie_itemimg" src="../images/push-bebes-filles_1440_1200.jpg" ></dt>
+							<dd class="xilie_itemtext">女婴</dd>
+						</dl>
+					</div>
+					<div class="section_content_search">
+						<p class="content_search_text">精品店</p>
+						<input style="outline: none;" class="content_search_input" type="text" placeholder="&nbsp;&nbsp;&nbsp;城市  邮编  国家/地区" />
+						<button style="outline: none;" type="button" class="icon-search content_search_button"></button>
+					</div>
+				</div>
+				<div class="section_content_fuwu">
+					<p class="content_search_text">迪奥线上精品店专享服务</p>
+					<div class="content_fuwu container">
+						<dl class="content_fuwu_item">
+							<dd><span class="fueu_item_icon icon-express-model"></span></dd>
+							<dd class="fuwu_item_text">
+								<p>免费配送</p>
+								<p>所有订单均享免费顺丰速递</p>
+							</dd>
+						</dl>
+						<dl class="content_fuwu_item">
+							<dd><span class="fueu_item_icon icon-ai21"></span></dd>
+							<dd class="fuwu_item_text">
+								<p>免费配送</p>
+								<p>所有订单均享免费顺丰速递</p>
+							</dd>
+						</dl>
+						<dl class="content_fuwu_item">
+							<dd><span class="fueu_item_icon icon-huaban"></span></dd>
+							<dd class="fuwu_item_text">
+								<p>免费配送</p>
+								<p>所有订单均享免费顺丰速递</p>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+		<!-- 页脚 -->
+		<footer id="footer">
+			<div class="footer_content container">
+				<div class="footer_content_email">
+					<p class="content_email_text">电子通讯</p>
+					<input style="outline: none;" type="text" class="content_email_input" placeholder="&nbsp;&nbsp;*请输入您的邮箱"/>
+					<button style="outline: none;" type="button" class="content_email_button">确定</button>
+				</div>
+				<div class="footer_content_text">
+					<ul class="content_text_ul">
+						<li class="text_ul_item"><a href="#">联系我们</a></li>
+						<li class="text_ul_item"><a href="#">配送及退货</a></li>
+						<li class="text_ul_item"><a href="#">常见问题</a></li>
+						<li class="text_ul_item"><a href="#">使用条款</a></li>
+						<li class="text_ul_item"><a href="#">数据保护章程</a></li>
+					</ul>
+					<div class="content_text_text">
+						<p class="content_imgText content_imgText_top">
+							<img src="../images/china-3.png" >
+							<span>电子营业执照</span>
+						</p>
+						<p class="content_imgText">
+							<img src="../images/china-0.png" >
+							<span>沪公网安备  31010602002343</span>
+						</p>
+						<p class="content_imgText">
+							<img src="../images/china-1.png" >
+							<span>沪CP备19005922号</span>
+						</p>
+						<p class="content_imgText">尚圃电子商务（上海）有限公司</p>
+						<p class="content_imgText">上海市南京西路1266号恒隆广场1期29F</p>
+					</div>
+					
+				</div>
+				<div class="footer_content_weibo">
+					<p class="content_weibo_text">关注我们</p>
+					<p class="icon_weibo"></p>
+					<hr class="content_weibo_hr">
+					<p>国家/地区</p>
+					<div>
+						<select style="outline: none;" class="content_weibo_div">
+							<option value="中国大陆（CNY￥）">中国大陆（CNY￥）</option>
+							<option value="香港特别行政区">香港特别行政区</option>
+							<option value="台湾地区">台湾地区</option>
+							<option value= "1">日本 (JPY¥)</option>
+							<option value="한국 (KRW₩)">한국 (KRW₩)</option>
+						</select>
+						<!-- <span class="icon_gouwu"></span>
+						中国大陆（CNY￥） -->
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="back_top" style="display: none;">
+			回到顶部
+		</div>
+		
+	</body>
+</html>
